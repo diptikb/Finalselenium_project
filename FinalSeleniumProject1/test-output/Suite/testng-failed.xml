@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCase.ShopTestRunner">
+        <methods>
+          <include name="sortByPrice"/>
+          <include name="searchByDropdown"/>
+          <include name="searchByName"/>
+          <include name="filterByPrice"/>
+          <include name="BeforeMethod"/>
+          <include name="filterByColor"/>
+          <include name="blankSearchBox"/>
+        </methods>
+      </class> <!-- TestCase.ShopTestRunner -->
+      <class name="TestCase.SaleTestRunner">
+        <methods>
+          <include name="checkout"/>
+          <include name="noColorSelection"/>
+          <include name="addMultipleColor"/>
+          <include name="addMultipleProduct"/>
+          <include name="productQuantity"/>
+        </methods>
+      </class> <!-- TestCase.SaleTestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
